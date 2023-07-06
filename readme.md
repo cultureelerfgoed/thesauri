@@ -1,4 +1,4 @@
-## RCE Thesauri
+## Thesauri van de Rijksdienst voor het Cultureel Erfgoed
 
 In dit repository houden we (voorlopig) issues, vragen etc. bij die betrekking hebben op de thesauri die **inhoudelijk in beheer** zijn bij de Rijksdienst voor het Cultureel Erfgoed.
 Dit zijn met name de Cultuurhistorische Thesaurus en het Archeologisch Basis Register.
