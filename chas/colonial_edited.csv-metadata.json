@@ -1,9 +1,9 @@
 {
-  "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/",
+  "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/",
   "@context": [
     "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
     {
-      "@base": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/"
+      "@base": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/"
     }
   ],
   "url": "",
@@ -13,110 +13,110 @@
     "quoteChar": "\""
   },
   "tableSchema": {
-    "aboutUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/id/{object_number}",
+    "aboutUrl": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/id/{object_number}",
     "primaryKey": "Resource",
     "columns": [
       {
         "virtual": true,
         "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "aboutUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/id/{object_number}",
-        "valueUrl": "http://www.w3.org/2000/01/rdf-schema#Resource"
+        "aboutUrl": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/id/{object_number}",
+        "valueUrl": "http://www.europeana.eu/schemas/edm/ProvidedCHO"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/priref",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/priref",
         "name": "priref",
-        "propertyUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/def/priref"
+        "propertyUrl": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/def/priref"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/associated_subject_1",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/associated_subject_1",
         "name": "associated_subject_1",
         "propertyUrl": "http://purl.org/dc/terms/subject"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/associated_subject_2",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/associated_subject_2",
         "name": "associated_subject_2",
         "propertyUrl": "http://purl.org/dc/terms/subject"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/associated_subject_3",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/associated_subject_3",
         "name": "associated_subject_3",
         "propertyUrl": "http://purl.org/dc/terms/subject"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/associated_subject_4",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/associated_subject_4",
         "name": "associated_subject_4",
         "propertyUrl": "http://purl.org/dc/terms/subject"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/description",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/description",
         "name": "description",
         "propertyUrl": "http://purl.org/dc/terms/description"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/institution_name",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/institution_name",
         "name": "institution_name",
         "propertyUrl": "http://purl.org/dc/terms/publisher"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/institution_place",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/institution_place",
         "name": "institution_place",
         "propertyUrl": "http://purl.org/dc/terms/spatial"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/material_1",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/material_1",
         "name": "material_1",
         "propertyUrl": "http://purl.org/dc/terms/medium"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/material_2",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/material_2",
         "name": "material_2",
         "propertyUrl": "http://purl.org/dc/terms/medium"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/object_category",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/object_category",
         "name": "object_category",
         "propertyUrl": "http://purl.org/dc/terms/type"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/object_name",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/object_name",
         "name": "object_name",
         "propertyUrl": "https://schema.org/artform"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/creator_name",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/creator_name",
         "name": "creator_name",
-        "propertyUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/def/creator_name"
+        "propertyUrl": "http://purl.org/dc/terms/creator"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/production_place",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/production_place",
         "name": "production_place",
-        "propertyUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/def/production_place"
+        "propertyUrl": "http://purl.org/dc/terms/spatial"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/acquisition_place",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/acquisition_place",
         "name": "acquisition_place",
-        "propertyUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/def/acquisition_place"
+        "propertyUrl": "http://purl.org/dc/terms/spatial"
       },
       {
         "datatype": "string",
-        "@id": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/column/technique",
+        "@id": "https://linkeddata.cultureelerfgoed.nl/europeana/colonial/column/technique",
         "name": "technique",
-        "propertyUrl": "https://data.netwerkdigitaalerfgoed.nl/ebbc36/def/technique"
+        "propertyUrl": "https://schema.org/artform"
       }
     ]
   }
